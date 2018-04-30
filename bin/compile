@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "-----> Creating symlink to system CA certificates"
+mkdir -p $1/.postgresql
+ln -nsf /usr/lib/ssl/certs/ca-certificates.crt $1/.postgresql/root.crt

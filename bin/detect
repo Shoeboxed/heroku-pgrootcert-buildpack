@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Shoeboxed PostgreSQL Root Certificate Buildpack"
+exit 0
